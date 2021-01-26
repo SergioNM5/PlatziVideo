@@ -18,24 +18,31 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+.left {
+    width: 50%;
+}
 .header .header__img{
     width: 200px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.header__menu {
-    margin-right: 30px;
+.right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
 }
+
 .header__menu:hover ul, ul:hover {
     display: block;
 }
 .header__menu ul {
     display: none;
     list-style: none;
-    position: absolute;
     text-align: right;
-    width: 100px;
-    margin-left: -13px;
+    position: absolute;
+    margin-left: -11px;
+
 }
 .header__menu li {
     margin: 10px 0px;
